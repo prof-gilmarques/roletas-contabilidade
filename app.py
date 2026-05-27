@@ -7,7 +7,14 @@ import requests # Necessário para enviar o e-mail via API
 st.set_page_config(page_title="Simulador de Lançamentos - Contabilidade II", page_icon="📊", layout="centered")
 
 # Título do Aplicativo
-st.title("📊 Simulador de Lançamentos Contábeis")
+#st.title("📊 Simulador de Lançamentos Contábeis")
+#st.markdown("---")
+
+# --- CABEÇALHO INSTITUCIONAL PERSONALIZADO ---
+st.markdown("### 🎓 UNIDAVI — Administração de Empresas")
+st.markdown("**Turma:** `ADE12026T1` | **Disciplina:** Legislação e Planejamento Tributário")
+st.title("📊 Simulador de Lançamentos")
+st.caption("**Professor:** Prof. Me. Gilmarques Agapito Costa")
 st.markdown("---")
 
 # --- GERENCIAMENTO DE ESTADO (SESSION STATE) ---
