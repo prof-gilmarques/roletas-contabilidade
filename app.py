@@ -20,9 +20,9 @@ valores = [900, 400, 500, 150, 750, 600, 550, 800, 300, 950, 700, 100, 850, 650,
 
 # Inicializa o estado da sessão para manter os valores na tela
 if 'operacao_sorteada' not in st.session_state:
-    st.session_state.operacao_sorteada = "👉 Clique para girar"
-    st.session_state.objeto_sorteado = "👉 Clique para girar"
-    st.session_state.valor_sorteado = "👉 Clique para girar"
+    st.session_state.operacao_sorteada = "👇 Clique abaixo para girar"
+    st.session_state.objeto_sorteado = "👇 Clique abaixo para girar"
+    st.session_state.valor_sorteado = "👇 Clique abaixo para girar"
 
 st.markdown("### 🎲 Suas Roletas:")
 
