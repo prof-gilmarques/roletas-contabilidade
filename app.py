@@ -73,7 +73,7 @@ def enviar_email_resend(nome_aluno, historico_rodadas):
     return response.status_code == 200
 
 # --- INTERACTION: ENTRADA DE DADOS ---
-nome_aluno = st.text_input("✍️ Digite seu nome completo antes de começar:", value="", placeholder="Seu nome aqui...")
+nome_aluno = st.text_input("✍️ **Digite seu nome completo antes de começar:**", value="", placeholder="Seu nome aqui...")
 
 st.markdown("""
 **Instruções:** Digite seu nome, clique no botão para girar as roletas e repita o processo por **10 vezes**. 
