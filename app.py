@@ -74,7 +74,7 @@ Ao finalizar a 10ª rodada, seus dados serão enviados diretamente para o profes
 """)
 
 # Banco de dados das roletas
-operacoes = ["COMPRA", "VENDA","COMPRA", "VENDA","COMPRA", "VENDA","COMPRA", "VENDA"]
+operacoes = ["COMPRA", "VENDA","COMPRA", "VENDA","COMPRA", "VENDA","COMPRA", "VENDA","COMPRA", "VENDA","COMPRA", "VENDA"]
 objetos = ["Matéria-prima", "Produto", "Mercadoria", "Serviço", "Matéria-prima", "Produto", "Mercadoria", "Serviço", "Matéria-prima", "Produto", "Mercadoria", "Serviço"]
 valores = [900, 400, 500, 150, 750, 600, 550, 800, 300, 950, 700, 100, 850, 650, 450, 250, 200, 350]
 
