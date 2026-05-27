@@ -13,8 +13,8 @@ st.set_page_config(page_title="Simulador de Lançamentos - Contabilidade II", pa
 # --- CABEÇALHO INSTITUCIONAL PERSONALIZADO ---
 st.markdown("### 🎓 UNIDAVI — Administração de Empresas")
 st.markdown("**Turma:** `ADE12026T1` | **Disciplina:** Legislação e Planejamento Tributário")
+st.markdown("**Professor:** Prof. Me. Gilmarques Agapito Costa")
 st.title("📊 Simulador de Lançamentos")
-st.caption("**Professor:** Prof. Me. Gilmarques Agapito Costa")
 st.markdown("---")
 
 # --- GERENCIAMENTO DE ESTADO (SESSION STATE) ---
