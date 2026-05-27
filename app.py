@@ -4,7 +4,7 @@ import time
 import requests # Necessário para enviar o e-mail via API
 
 # Configuração da página para ficar bonita no celular e PC
-st.set_page_config(page_title="Simulador de Lançamentos - Contabilidade II", page_icon="📊", layout="centered")
+st.set_page_config(page_title="Simulador de Lançamentos - Legislação Tributária", page_icon="📊", layout="centered")
 
 # Título do Aplicativo
 #st.title("📊 Simulador de Lançamentos Contábeis")
@@ -41,7 +41,7 @@ def enviar_email_resend(nome_aluno, historico_rodadas):
         linhas_tabela += f"<tr><td>{r['Numero']}</td><td>{r['Operação']}</td><td>{r['Objeto']}</td><td>{r['Valor']}</td></tr>"
         
     html_conteudo = f"""
-    <h3>Desafio Concluído - Contabilidade II</h3>
+    <h3>Desafio Concluído - Legislação Tributária</h3>
     <p><strong>Aluno:</strong> {nome_aluno}</p>
     <table border='1' cellpadding='5' style='border-collapse: collapse;'>
         <thead>
